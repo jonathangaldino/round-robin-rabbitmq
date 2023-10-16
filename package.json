@@ -1,0 +1,19 @@
+{
+  "name": "round-robin-queues-rabbitmq",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start:consumer": "ts-node src/consumer",
+    "start:producer": "ts-node src/producer"
+  },
+  "devDependencies": {
+    "@types/amqplib": "^0.10.2",
+    "@types/node": "^20.8.6",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.3"
+  }
+}
